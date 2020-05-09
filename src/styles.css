@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: content-box;
+  font-size: 1rem;
+  text-align: center;
+  background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(208, 255, 0);
+}
+h3{
+    font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+    color: rgb(208, 255, 0);
+
+}
+
+input,
+select {
+  text-align: left;
+  padding: 0.3rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0.8rem;
+  border: 1px solid #77d123;
+  color: #ffffff;
+  width: 20%;
+  border-radius: 5px;
+}
+
+select {
+  background-color: transparent;
+  padding: 0.3rem 0.8rem;
+  margin: 0.5rem 0 0.5rem 0.8rem;
+  border: 1px solid #77d123;
+  color: #ffffff;
+  height: 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+    color: rgb(208, 255, 0);
+font-weight: 700;
+font-size: 30px;
+}
+
+.imageCover {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: -40px;
+}
+
+label{
+    color: rgb(208, 255, 0);
+    font-weight: 700;
+}
